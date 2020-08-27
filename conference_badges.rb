@@ -22,6 +22,7 @@ rooms
 end
 
 def printer(attendees)
+  printer_array = []
   printer_array << badges_array
   printer_array << rooms
   printer_array
