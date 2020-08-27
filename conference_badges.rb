@@ -11,8 +11,9 @@ end
   badges_array
 end
 
-def assign_rooms(attendees, rooms)
-  rooms_array = [1..7]
-  attendees.each do |assignments|
+def assign_rooms(attendees)
+  rooms = rooms.new
+  %w(attendees).each_with_index { |attendees, index|
+  rooms[attendees] = index }
     
 end
