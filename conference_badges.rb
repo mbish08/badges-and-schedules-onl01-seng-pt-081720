@@ -13,5 +13,6 @@ end
 
 def assign_rooms(attendees, rooms)
   rooms_array = [1..7]
-  
+  attendees.each do |assignments|
+    
 end
