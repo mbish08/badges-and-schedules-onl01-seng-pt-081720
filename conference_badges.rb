@@ -3,21 +3,21 @@ def badge_maker(name)
 end
 
 
-def batch_badge_creator(array)
-  attendees.each do |badges|
+def batch_badge_creator(attendees)
   badges_array = []
+  attendees.each do |badges|
   badges_array << "Hello, my name is #{badges}."
 end
   badges_array
 end
 
-def batch_badge_creator(array)
-  nuarray = []
-  array.each do |name|
-    nuarray.push("Hello, my name is #{name}.")
-  end
-  return nuarray
-end
+#def batch_badge_creator(array)
+ # nuarray = []
+  #array.each do |name|
+   # nuarray.push("Hello, my name is #{name}.")
+#  end
+ # return nuarray
+#end
 
 #primary_colors = ["Red", "Yellow", "Blue"]
 #primary_colors.each do |color|
