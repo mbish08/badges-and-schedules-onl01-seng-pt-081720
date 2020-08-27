@@ -20,3 +20,9 @@ attendees.each do |name|
 end
 rooms
 end
+
+def printer(attendees)
+  printer_array << badges_array
+  printer_array << rooms
+  printer_array
+end
