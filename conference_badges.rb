@@ -12,8 +12,10 @@ end
 end
 
 def assign_rooms(attendees)
-  rooms = rooms.new
-  %w(attendees).each_with_index { |attendees, index|
-  rooms[attendees] = index }
-    
+  rooms = []
+attendees.each do |name|
+  rooms << "Hello, #{name}! You'll be assigned to room #{counter}"
+  counter += 1 
+end
+rooms
 end
